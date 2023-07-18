@@ -4,3 +4,4 @@ matrix:
 
 #   ubuntu xenial 16.04
 #   gcc 5 is the default on xenial
+    - os: linux
