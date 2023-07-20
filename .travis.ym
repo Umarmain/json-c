@@ -6,3 +6,5 @@ matrix:
 #   gcc 5 is the default on xenial
     - os: linux
       dist: xenial
+      compiler: gcc
+      addons:
