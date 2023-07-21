@@ -8,3 +8,5 @@ matrix:
       dist: xenial
       compiler: gcc
       addons:
+        apt:
+          packages:
