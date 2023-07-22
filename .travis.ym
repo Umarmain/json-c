@@ -10,3 +10,4 @@ matrix:
       addons:
         apt:
           packages:
+            - valgrind
