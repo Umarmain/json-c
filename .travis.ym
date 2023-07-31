@@ -20,3 +20,4 @@ matrix:
 #   gcc 9 is the default on bionic
     - os: linux
       dist: bionic
+      compiler: gcc
