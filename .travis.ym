@@ -31,3 +31,4 @@ matrix:
       env: CHECK="true"
 
 #   ubuntu focal fossa 20.04
+#   gcc 9 is the default on bionic
