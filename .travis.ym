@@ -34,3 +34,4 @@ matrix:
 #   gcc 9 is the default on bionic
     - os: linux
       dist: focal
+      compiler: gcc
