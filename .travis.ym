@@ -35,3 +35,4 @@ matrix:
     - os: linux
       dist: focal
       compiler: gcc
+      addons:
