@@ -36,3 +36,4 @@ matrix:
       dist: focal
       compiler: gcc
       addons:
+        apt:
