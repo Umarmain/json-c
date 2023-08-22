@@ -1,4 +1,4 @@
-language: cpp
+вlanguage: cpp
 matrix:
   include:
 
@@ -38,3 +38,4 @@ matrix:
       addons:
         apt:
           packages:
+            - valgrind
