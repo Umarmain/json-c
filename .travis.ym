@@ -16,8 +16,8 @@ matrix:
             - cmake
       env: CHECK="true"
 
-#   ubuntu focal fossa 20.04
-#   gcc 9 is the default on bionic
+#   ubuntu bionic 18.04
+#   gcc 7 is the default on bionic
     - os: linux
       dist: bionic
       compiler: gcc
