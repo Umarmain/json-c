@@ -39,3 +39,4 @@ matrix:
         apt:
           packages:
             - valgrind
+            - cppcheck
