@@ -41,3 +41,4 @@ matrix:
             - valgrind
             - cppcheck
             - doxygen
+            - cmake
