@@ -42,3 +42,4 @@ matrix:
             - cppcheck
             - doxygen
             - cmake
+      env: CHECK="true"
