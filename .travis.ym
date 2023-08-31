@@ -43,3 +43,5 @@ matrix:
             - doxygen
             - cmake
       env: CHECK="true"
+
+# clang
