@@ -45,3 +45,4 @@ matrix:
       env: CHECK="true"
 
 # clang
+#   xenial
