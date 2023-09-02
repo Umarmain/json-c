@@ -46,3 +46,4 @@ matrix:
 
 # clang
 #   xenial
+    - os: linux
