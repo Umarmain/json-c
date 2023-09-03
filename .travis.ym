@@ -47,3 +47,4 @@ matrix:
 # clang
 #   xenial
     - os: linux
+      dist: xenial
