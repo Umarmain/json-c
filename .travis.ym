@@ -50,3 +50,4 @@ matrix:
       dist: xenial
       compiler: clang
       addons:
+        apt:
