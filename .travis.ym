@@ -51,3 +51,4 @@ matrix:
       compiler: clang
       addons:
         apt:
+          sources:
