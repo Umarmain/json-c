@@ -53,3 +53,4 @@ matrix:
         apt:
           sources:
             - llvm-toolchain-xenial-6.0
+          packages:
