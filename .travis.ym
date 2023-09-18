@@ -60,3 +60,4 @@ matrix:
 
     # clang-7 is the default on focal, xenial and bionic
     - os: linux
+      dist: focal
