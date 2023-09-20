@@ -62,3 +62,4 @@ matrix:
     - os: linux
       dist: focal
       compiler: clang
+      addons:
