@@ -63,3 +63,4 @@ matrix:
       dist: focal
       compiler: clang
       addons:
+        apt:
