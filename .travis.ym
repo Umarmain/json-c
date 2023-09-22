@@ -64,3 +64,4 @@ matrix:
       compiler: clang
       addons:
         apt:
+          packages:
