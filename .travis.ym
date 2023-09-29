@@ -72,3 +72,4 @@ matrix:
       env: CHECK="true"
 
 # osx
+    - os: osx
