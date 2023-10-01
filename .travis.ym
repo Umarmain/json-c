@@ -74,3 +74,4 @@ matrix:
 # osx
     - os: osx
       osx_image: xcode13.4
+      env: XCODE="true" CHECK="true"
