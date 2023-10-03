@@ -77,3 +77,4 @@ matrix:
       env: XCODE="true" CHECK="true"
 
 # run coveralls
+    - os: linux
