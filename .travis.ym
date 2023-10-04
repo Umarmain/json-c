@@ -78,3 +78,4 @@ matrix:
 
 # run coveralls
     - os: linux
+      dist: xenial
