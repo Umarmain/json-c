@@ -79,3 +79,4 @@ matrix:
 # run coveralls
     - os: linux
       dist: xenial
+      compiler: gcc
