@@ -85,3 +85,4 @@ matrix:
           packages:
             - valgrind
             - cppcheck
+            - doxygen
