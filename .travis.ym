@@ -83,6 +83,7 @@ matrix:
       addons:
         apt:
           packages:
-            - valgrind
-            - cppcheck
-            - doxygen
+            - lcov
+      env: CHECK="true"
+      before_install:
+        - sudo gem install coveralls-lcov
