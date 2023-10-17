@@ -89,3 +89,4 @@ matrix:
         - sudo gem install coveralls-lcov
         - echo $CC
         - echo $LANG
+        - echo $LC_ALL
