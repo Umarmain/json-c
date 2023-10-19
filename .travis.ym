@@ -91,3 +91,4 @@ matrix:
         - echo $LANG
         - echo $LC_ALL
         - set -e
+        - if [ "$TRAVIS_OS_NAME" = "linux" ]; then
