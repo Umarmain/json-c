@@ -94,3 +94,4 @@ matrix:
         - if [ "$TRAVIS_OS_NAME" = "linux" ]; then
             eval "${MATRIX_EVAL}";
             if [ -n "$MATRIX_EVAL" ] && [ "$TRAVIS_COMPILER" != "clang" ]; then
+              sudo apt-get install -y $CC;
