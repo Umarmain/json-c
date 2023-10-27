@@ -98,3 +98,4 @@ matrix:
             fi;
           fi
       before_script:
+        - export CFLAGS="-fprofile-arcs -ftest-coverage"
