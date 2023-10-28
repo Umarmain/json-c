@@ -99,3 +99,4 @@ matrix:
           fi
       before_script:
         - export CFLAGS="-fprofile-arcs -ftest-coverage"
+        - mkdir build && cd build && cmake ..
