@@ -101,3 +101,4 @@ matrix:
         - export CFLAGS="-fprofile-arcs -ftest-coverage"
         - mkdir build && cd build && cmake ..
       script:
+        - make
