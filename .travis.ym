@@ -102,3 +102,4 @@ matrix:
         - mkdir build && cd build && cmake ..
       script:
         - make
+        - make test
