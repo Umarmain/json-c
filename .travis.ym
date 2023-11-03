@@ -103,3 +103,4 @@ matrix:
       script:
         - make
         - make test
+      after_success:
