@@ -104,3 +104,4 @@ matrix:
         - make
         - make test
       after_success:
+        - cd ..
