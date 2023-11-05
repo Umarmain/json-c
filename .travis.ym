@@ -105,3 +105,4 @@ matrix:
         - make test
       after_success:
         - cd ..
+        - lcov -d build/ -b . -c -o build/all_coverage.info
