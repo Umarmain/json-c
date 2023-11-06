@@ -106,3 +106,4 @@ matrix:
       after_success:
         - cd ..
         - lcov -d build/ -b . -c -o build/all_coverage.info
+        - lcov -r build/all_coverage.info '/usr/*' '*CMakeFiles*' '*fuzz*' '*test*' -o build/coverage.info
