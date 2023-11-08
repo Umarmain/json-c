@@ -108,3 +108,5 @@ matrix:
         - lcov -d build/ -b . -c -o build/all_coverage.info
         - lcov -r build/all_coverage.info '/usr/*' '*CMakeFiles*' '*fuzz*' '*test*' -o build/coverage.info
         - coveralls-lcov --verbose build/coverage.info
+
+#  allow_failures:
