@@ -110,3 +110,4 @@ matrix:
         - coveralls-lcov --verbose build/coverage.info
 
 #  allow_failures:
+#    - os: osx
