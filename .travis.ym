@@ -111,3 +111,5 @@ matrix:
 
 #  allow_failures:
 #    - os: osx
+
+before_install:
