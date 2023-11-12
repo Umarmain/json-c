@@ -114,3 +114,4 @@ matrix:
 
 before_install:
   - echo $CC
+  - echo $LANG
