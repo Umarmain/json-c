@@ -116,3 +116,4 @@ before_install:
   - echo $CC
   - echo $LANG
   - echo $LC_ALL
+  - set -e
