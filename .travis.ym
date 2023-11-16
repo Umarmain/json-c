@@ -118,3 +118,4 @@ before_install:
   - echo $LC_ALL
   - set -e
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then
+      eval "${MATRIX_EVAL}";
