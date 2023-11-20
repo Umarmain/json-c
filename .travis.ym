@@ -122,3 +122,4 @@ before_install:
       if [ -n "$MATRIX_EVAL" ] && [ "$TRAVIS_COMPILER" != "clang" ]; then
         sudo apt-get install -y $CC;
       fi;
+    fi
