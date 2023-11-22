@@ -125,3 +125,4 @@ before_install:
     fi
 
 before_script:
+  # XXX osx on travis doesn't work w/ set -e, so turn it off :(
