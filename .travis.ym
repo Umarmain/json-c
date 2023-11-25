@@ -128,3 +128,4 @@ before_script:
   # XXX osx on travis doesn't work w/ set -e, so turn it off :(
   - set +e
   - mkdir -p build || echo "Failed to mkdir build"
+  - cd build || echo "Failed to cd build"
