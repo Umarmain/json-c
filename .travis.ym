@@ -129,3 +129,4 @@ before_script:
   - set +e
   - mkdir -p build || echo "Failed to mkdir build"
   - cd build || echo "Failed to cd build"
+  - cmake .. || echo "Failed to run cmake"
