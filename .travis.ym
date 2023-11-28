@@ -132,3 +132,4 @@ before_script:
   - cmake .. || echo "Failed to run cmake"
 
 script:
+  - make
