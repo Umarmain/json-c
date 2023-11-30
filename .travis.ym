@@ -134,3 +134,4 @@ before_script:
 script:
   - make
   # when using bionic, Travis seems to ignore the "addons" section, so installing the packages with apt-get...
+  - if [ -n "$CHECK" ]; then
